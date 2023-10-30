@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIC Women's Badminton Club</title>
+    <link rel="stylesheet" href="style.css" /> <!-- Linking to external stylesheet -->
+  </head>
+
+  <body class="body">
+    <header>
+      <img src="img/mic logo.png" alt="mic logo" /> <!-- Club logo -->
+      <div class="heading">
+        <h1>Welcome to the Women's Badminton Club</h1> <!-- Club heading -->
+      </div>
+      <!-- Navigation bar with menu options -->
+      <nav>
+        <ul>
+          <li><a href="#missionID">Our Mission</a></li>
+          <li><a href="#registerID">Register Here</a></li>
+          <li><a href="#scheduleID">Schedule</a></li>
+          <li><a href="#equipmentID">Equipment</a></li>
+          <li><a href="#aboutID">About Badminton</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-img" >
+        <img src="img/badminton-headerimg.jpeg" alt="headerimage" /> <!-- Main header image -->
+      </div>
+
+      <div id="missionID" class="flex-container" >
+        <div class="flexbox">
+          <h2>Our Mission</h2>
+          <!-- Club's mission statement -->
+          At MIC Women's Badminton Club, we are dedicated to promoting the sport
+          of badminton and fostering a vibrant and inclusive community of women
+          players.
+        </div>
+        <div class="flexbox">
+          <h2>Our Vision</h2>
+          <!-- Club's vision statement -->
+          Our vision is to bring out women to give themselves the much needed time
+          for themselves to socialize and be physically active and meet
+          like-minded individuals.
+        </div>
+        <div class="flexbox">
+          <h2>Our Platform</h2>
+          <!-- Information about the club's offerings -->
+          Whether you're a beginner looking to learn the basics or a seasoned
+          player seeking to refine your skills, our club offers a platform for
+          players of all levels seeking to improve their game.
+        </div>
+      </div>
+
+      <section>
+        <div class="flex-container" id="registerID">
+          <div class="flexbox">
+            <h2>Register Here</h2>
+            <h3>Fill the form to register:</h3>
+            <!-- Registration form -->
+            <form>
+              <label for="name">Name :</label>
+              <input type="text" id="nameID" name="name" /><br />
+
+              <label for="email">Email :</label>
+              <input type="email" id="emailID" name="email" /><br />
+
+              <label for="phone">Phone#:</label>
+              <input type="phone" id="phoneID" name="phone" /><br />
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+
+          <div class="flexbox" id="scheduleID">
+            <h2>Our Schedule:</h2>
+            <!-- Schedule information in a table -->
+            <table class="center-table">
+              <tr>
+                <th>Days</th>
+                <th>Timings</th>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>6:00pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>6:00pm</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>9:30am</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="flexbox">
+            <h2>Contact Us</h2>
+            <!-- Contact form -->
+            <form>
+              <label for="name">Name :</label>
+              <input type="text" id="nameID" name="name" /><br />
+
+              <label for="email">Email :</label>
+              <input type="email" id="emailID" name="email" /><br />
+
+              <label for="description">Message :</label>
+              <input type="text" id="messageID" name="message" /><br />
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="grid-container" class="flexbox" class="box" class="centerIt">
+        <div id="equipmentID">
+          <h2>Badminton Rental Equipment Available</h2>
+        </div>
+        <!-- Images of available equipment -->
+        <div class="equipment_img">
+          <img src="img/net.jpeg" alt="net" />
+          <img src="img/racket.jpeg" alt="rackets" />
+          <img src="img/shuttlecocks.jpeg" alt="shuttlecocks" />
+        </div>
+      </div>
+
+      <section>
+        <div id="aboutID" class="box">
+          <h2>About Badminton</h2>
+          <!-- Information about badminton -->
+          Badminton is a fast-paced racket sport that is played indoors. It's a
+          fantastic way to improve physical fitness, agility, and hand-eye
+          coordination while having a great time with friends or fellow
+          enthusiasts. Originating from ancient Indian roots, badminton has
+          grown to become a globally popular sport, known for its thrilling
+          rallies and competitive spirit.
+        </div>
+      </section>
+
+      <section>
+        <div class="box">
+          <h2>Top Health Benefits for Playing Badminton</h2>
+          <a
+            href="https://naturallyyours.in/blogs/blog/top-10-health-benefits-of-playing-badminton"
+            >Top 10 Health Benefits of Playing Badminton</a
+          >
+        </div>
+
+        <div class="box">
+          <h2>How to play Badminton for Beginners</h2>
+        </div>
+        <!-- Embedded video on how to play badminton for beginners -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/MsHMCZlcrXM?si=0jsO1w5D2z_g26ew"
+          title="Badminton for Beginners"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <!-- Additional information -->
+      <ul>
+        <li>Membership page</li>
+        <li>Events & Tournaments</li>
+        <li>Contact Us</li>
+      </ul>
+    </main>
+  </body>
+</html>
